@@ -323,7 +323,6 @@ with col_a:
 with col_b:
     if st.button("🧹 Limpiar", use_container_width=True):
         st.session_state.current_code = ""
-        st.session_state.scan_code = ""
         st.session_state.screen = "scan"
         st.rerun()
 
